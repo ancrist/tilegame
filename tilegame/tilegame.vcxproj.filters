@@ -12,6 +12,15 @@
     <Filter Include="Resources">
       <UniqueIdentifier>{d38c8a1a-a246-449a-818b-7a727c1dde44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{99d43760-32bc-48b4-b674-d2ebe94af747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Levels">
+      <UniqueIdentifier>{4a930b02-5875-4801-81e0-d68503ebfbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{b69a8e1e-4537-44a2-949e-eab54b109a8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -79,5 +88,39 @@
     <ClCompile Include="load_shaders.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Levels\level.png">
+      <Filter>Resources\Levels</Filter>
+    </Image>
+    <Image Include="Resources\Levels\level1.png">
+      <Filter>Resources\Levels</Filter>
+    </Image>
+    <Image Include="Resources\Levels\level2.png">
+      <Filter>Resources\Levels</Filter>
+    </Image>
+    <Image Include="Resources\Levels\test.png">
+      <Filter>Resources\Levels</Filter>
+    </Image>
+    <Image Include="Resources\textures\greenstone.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\textures\player_sprites.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\textures\wall.jpg">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\textures\checkerboard.jpg">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\tilegame.frag">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\tilegame.vert">
+      <Filter>Resources\Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

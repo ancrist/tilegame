@@ -186,6 +186,20 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Levels\level.png" />
+    <Image Include="Resources\Levels\level1.png" />
+    <Image Include="Resources\Levels\level2.png" />
+    <Image Include="Resources\Levels\test.png" />
+    <Image Include="Resources\textures\checkerboard.jpg" />
+    <Image Include="Resources\textures\greenstone.png" />
+    <Image Include="Resources\textures\player_sprites.png" />
+    <Image Include="Resources\textures\wall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\tilegame.frag" />
+    <None Include="Resources\shaders\tilegame.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

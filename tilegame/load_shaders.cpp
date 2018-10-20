@@ -65,7 +65,7 @@ extern "C" {
 
 			GLint compiled;
 			glGetShaderiv(shader, GL_COMPILE_STATUS, &compiled);
-			if (!compiled) {
+			//if (!compiled) {
 #ifdef _DEBUG
 				GLsizei len;
 				glGetShaderiv(shader, GL_INFO_LOG_LENGTH, &len);
@@ -75,8 +75,8 @@ extern "C" {
 				delete[] log;
 #endif /* DEBUG */
 
-				return 0;
-			}
+			//	return 0;
+			//}
 
 			glAttachShader(program, shader);
 
